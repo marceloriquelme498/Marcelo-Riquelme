@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+<html lang="es"><head><meta charset="UTF-8"><title>Dashboard Marcelo</title> 
+<style> 
+body{background:linear-gradient(135deg,#667eea,#764ba2);color:white;text-align:center;padding:50px;font-family:Arial} 
+h1{font-size:3.5rem;margin-bottom:60px} 
+.card{display:inline-block;background:white;color:#333;margin:20px;padding:40px;width:260px;border-radius:20px;box-shadow:0 15px 35px rgba(0,0,0,0.3);transition:0.4s} 
+.card:hover{transform:translateY(-15px)} 
+.numero{font-size:3.8rem;font-weight:bold;color:#2d3748} 
+</style></head><body> 
+<h1>Mi Dashboard</h1> 
+<div class="card"><h2>Usuarios</h2><div class="numero">{{ datos.usuarios }}</div></div> 
+<div class="card"><h2>Ventas</h2><div class="numero">$ {{ datos.ventas }}</div></div> 
+<div class="card"><h2>Visitas</h2><div class="numero">{{ datos.visitas }}</div></div></div> 
+</body></html> 
