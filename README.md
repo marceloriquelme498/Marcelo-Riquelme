@@ -1,12 +1,12 @@
 # Marcelo Riquelme 
-Trabajo pr ctico de programaci¢n web 
+Trabajo practico de programacion web 
  
-## Estructura del repositorio 
-- tema-1  Dashboard con Flask 
+## Estructura 
+- tema-1  Dashboard completo con Flask 
 - tema-2  Pr¢ximo tema 
  
-## C¢mo ejecutar 
+## Como ejecutar 
 1. Entrar a la carpeta tema-1 
-2. pip install flask 
-3. python app.py 
+2. En CMD: pip install flask 
+3. Luego: python app.py 
 4. Abrir http://localhost:5000 
