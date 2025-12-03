@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); margin: 0; min-height: 100vh; color: #1b5e20; } 
+.navbar { background-color: #1b5e20 !important; } 
+.btn-success { background-color: #2e7d32 !important; border-color: #2e7d32 !important; } 
+.btn-success:hover { background-color: #1b5e20 !important; } 
+.card { transition: all 0.3s ease; border: none !important; box-shadow: 0 4px 15px rgba(0,0,0,0.1); } 
+.card:hover { transform: translateY(-12px); box-shadow: 0 20px 40px rgba(0,0,0,0.2) !important; } 
+.card-img-top { height: 250px; object-fit: cover; border-bottom: 3px solid #2e7d32; } 
+.text-success { color: #1b5e20 !important; } 
+h1, h3, h5 { color: #1b5e20; font-weight: bold; } 
+footer { background: #1b5e20; color: white; text-align: center; padding: 20px; position: relative; bottom: 0; width: 100%; } 
